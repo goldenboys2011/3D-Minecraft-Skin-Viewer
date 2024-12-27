@@ -1033,7 +1033,7 @@ body {
 		if (keyCode == '13'){
 			// Enter pressed, set new image
 			async function getUUID(username) {
-            	const proxyUrl = '';
+            	const proxyUrl = 'https://corsproxy.io/?';
             	const targetUrl = `https://api.mojang.com/users/profiles/minecraft/${username}`;
             	const url = proxyUrl + targetUrl;
             	try {
